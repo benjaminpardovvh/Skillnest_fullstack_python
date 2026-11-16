@@ -35,7 +35,7 @@ print(gatos) #Imprime: ['Garfield', 'Hello Kitty']
 #matrizes: Son listas de listas, es decir, una lista que contiene otras listas.
 #Se pueden utilizar para representar tablas o matrices de datos.
 matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-print(matriz[1][2][3]) #Imprime: 6
+print(matriz[2][2]) #Imprime: 6
 
 #tarea:
 #crear una matriz de 4x4 y mostrar 16 en la terminal

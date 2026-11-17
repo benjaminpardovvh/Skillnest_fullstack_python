@@ -39,19 +39,27 @@ print(matriz[2][2]) #Imprime: 6
 
 #tarea:
 #crear una matriz de 4x4 y mostrar 16 en la terminal
+matriz2 = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
+print(matriz2[3][3])
 
 # 🔒 Tuplas: Tipo de datos inmutable (que no se puede modificar) y contiene un conjunto de distintos valores. Pueden contener distintos tipos de datos.
 
 perro = ("Scooby Doo", "Gran Danés", "Scooby Galletas", 7)
 print(perro[0]) #Imprime: Scooby Doo
-perro[2] = "comida de perro" #ERROR: Las tuplas no pueden ser modificadas (TypeError: 'tuple' object does not support item assignment)
-# 🗂️ Diccionarios: Nos permite almacenar contenido a través de una llave y un valor. Podemos acceder a sus datos a través de su índice único (que en este caso llamaremos llave o clave). Encuentra algunos métodos integrados de los diccionarios aquí.
-
+# perro[2] = "comida de perro"
+# ERROR: Las tuplas no pueden ser modificadas (TypeError: 'tuple' object does not support item assignment)
+# 🗂️ Diccionarios: Nos permite almacenar contenido a través de una llave y un valor. Podemos acceder a 
+# sus datos a través de su índice único (que en este caso llamaremos llave o clave). Encuentra algunos métodos integrados de los diccionarios aquí.
+# JSON -> Almacena texto plano y es muy usado para intercambiar datos entre clientes y servidor
 diccionario_vacio = {}
 persona = {'nombre': 'Carmen', 'edad': 31, 'altura': 1.71, 'usa_lentes': False}
 persona['nombre'] = 'Valeria'  # Actualiza si el valor de la llave existente
 persona['hobbies'] = ['jugar videojuegos', 'programación'] 
-
+#incorporar 2 nuevas claves a persona
+persona['profesion'] = 'limpiadora'
+persona['mascotas'] = 'puppy el chiwawa'
+persona['comida'] = 'Pizza'
+persona['peliculas_fav'] = 'La saga de Rocky'
 # Agrega esa clave-valor si no existía previamente
 print(persona)
 
